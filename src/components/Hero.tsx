@@ -44,7 +44,7 @@ const Hero = () => {
               <div className="text-sm text-muted-foreground">Uptime</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-primary">< 1s</div>
+              <div className="text-2xl md:text-3xl font-bold text-primary">&lt; 1s</div>
               <div className="text-sm text-muted-foreground">Setup Time</div>
             </div>
             <div className="text-center">
