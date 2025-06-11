@@ -16,14 +16,14 @@ const Hero = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            The Future of{" "}
+            Unleash the{" "}
             <span className="hero-gradient bg-clip-text text-transparent">
-              Minecraft Hosting
+              Nether's Power
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Lightning-fast servers, instant setup, and 24/7 support. Built by gamers, for gamers.
+            Blazing-fast Minecraft servers that harness the raw energy of the Nether. Built by gamers, for gamers.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

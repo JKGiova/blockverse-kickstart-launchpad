@@ -6,33 +6,33 @@ const Features = () => {
   const features = [
     {
       icon: <Server className="w-8 h-8 text-primary" />,
-      title: "Instant Server Deployment",
-      description: "Get your Minecraft server running in under 60 seconds with our one-click deployment system."
+      title: "Instant Server Summoning",
+      description: "Spawn your Minecraft server faster than a Ghast's fireball with our one-click deployment system."
     },
     {
       icon: <Shield className="w-8 h-8 text-primary" />,
-      title: "DDoS Protection",
-      description: "Enterprise-grade security keeps your server safe from attacks and ensures stable gameplay."
+      title: "Nether-Grade Protection",
+      description: "Enterprise-level security shields your server from attacks like obsidian walls protect against explosions."
     },
     {
       icon: <Gauge className="w-8 h-8 text-primary" />,
-      title: "High Performance",
-      description: "Latest Intel processors and NVMe SSD storage deliver lag-free gaming experiences."
+      title: "Blazing Performance",
+      description: "Powered by the latest hardware, delivering performance hotter than Nether lava flows."
     },
     {
       icon: <HeadphonesIcon className="w-8 h-8 text-primary" />,
       title: "24/7 Expert Support",
-      description: "Our Minecraft-savvy support team is always ready to help you with any issues."
+      description: "Our Minecraft-savvy support team watches over your server like a guardian spirit."
     },
     {
       icon: <Cpu className="w-8 h-8 text-primary" />,
-      title: "Easy Mod Management",
-      description: "Install popular modpacks and plugins with just a few clicks through our intuitive panel."
+      title: "Easy Mod Enchantments",
+      description: "Install popular modpacks and plugins with magical ease through our intuitive control panel."
     },
     {
       icon: <Globe className="w-8 h-8 text-primary" />,
-      title: "Global Network",
-      description: "Servers located worldwide ensure low latency for players no matter where they are."
+      title: "Global Nether Portals",
+      description: "Servers located worldwide ensure low latency connections no matter where your players roam."
     }
   ];
 
@@ -41,10 +41,10 @@ const Features = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Why Choose <span className="text-primary">CraftHost</span>?
+            Why Choose <span className="text-primary">GhastHosting</span>?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We've built the most advanced Minecraft hosting platform with features that matter to gamers.
+            We've forged the most powerful Minecraft hosting platform in the fires of the Nether.
           </p>
         </div>
 

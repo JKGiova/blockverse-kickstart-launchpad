@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Github, Twitter, Youtube, Mail } from "lucide-react";
+import { Github, Twitter, Youtube, Mail, Ghost } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -12,13 +12,12 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">MC</span>
+                <Ghost className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold">CraftHost</span>
+              <span className="text-xl font-bold">GhastHosting.com</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              The next generation of Minecraft server hosting. Built by gamers, for gamers. 
-              Join our Kickstarter to be part of the revolution.
+              Harness the power of the Nether for your Minecraft adventures. Built by gamers who understand the spirit of exploration and creation.
             </p>
             
             {/* Newsletter */}
@@ -60,7 +59,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-            © 2024 CraftHost. All rights reserved. Minecraft is a trademark of Mojang Studios.
+            © 2024 GhastHosting.com. All rights reserved. Minecraft is a trademark of Mojang Studios.
           </p>
           
           <div className="flex space-x-4">

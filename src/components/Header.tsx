@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Ghost } from "lucide-react";
 import { useState } from "react";
 
 const Header = () => {
@@ -12,9 +12,9 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">MC</span>
+              <Ghost className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold">CraftHost</span>
+            <span className="text-xl font-bold">GhastHosting.com</span>
           </div>
 
           {/* Desktop Navigation */}
