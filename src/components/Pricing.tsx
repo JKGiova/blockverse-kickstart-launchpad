@@ -106,6 +106,7 @@ const Pricing = () => {
                       : 'bg-secondary text-secondary-foreground hover:bg-secondary/90'
                   }`}
                   size="lg"
+                  onClick={() => window.open('https://www.kickstarter.com', '_blank')}
                 >
                   Back on Kickstarter
                 </Button>
