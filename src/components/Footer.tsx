@@ -16,9 +16,6 @@ const Footer = () => {
               </div>
               <span className="text-xl font-bold">GhastHosting.com</span>
             </div>
-            <p className="text-muted-foreground mb-6 max-w-md">
-              Harness the power of the Nether for your Minecraft adventures. Built by gamers who understand the spirit of exploration and creation.
-            </p>
             
             {/* Newsletter */}
             <div className="space-y-2">
