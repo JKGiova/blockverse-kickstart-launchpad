@@ -45,7 +45,7 @@ const Header = () => {
             >
               About
             </button>
-            <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90">
+            <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
               Get Notified
             </Button>
           </nav>
@@ -81,7 +81,7 @@ const Header = () => {
               >
                 About
               </button>
-              <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90 w-full">
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 w-full">
                 Get Notified
               </Button>
             </div>

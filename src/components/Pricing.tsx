@@ -100,11 +100,7 @@ const Pricing = () => {
                 </ul>
                 
                 <Button 
-                  className={`w-full mt-auto ${
-                    plan.popular 
-                      ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
-                      : 'bg-secondary text-secondary-foreground hover:bg-secondary/90'
-                  }`}
+                  className="w-full mt-auto bg-primary text-primary-foreground hover:bg-primary/90"
                   size="lg"
                   onClick={() => window.open('https://www.kickstarter.com', '_blank')}
                 >
