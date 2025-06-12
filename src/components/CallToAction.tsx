@@ -19,7 +19,7 @@ const CallToAction = () => {
             Early supporters get exclusive perks and lifetime discounts!
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+          <div className="flex justify-center mb-8">
             <Button 
               size="lg" 
               className="bg-primary text-primary-foreground hover:bg-primary/90 group"
@@ -28,9 +28,6 @@ const CallToAction = () => {
               <Bell className="mr-2 w-5 h-5" />
               Get Notified on Launch
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button size="lg" variant="outline">
-              Join Our Discord
             </Button>
           </div>
 

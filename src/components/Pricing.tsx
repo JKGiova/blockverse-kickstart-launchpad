@@ -70,7 +70,7 @@ const Pricing = () => {
           {plans.map((plan, index) => (
             <Card 
               key={index} 
-              className={`relative bg-card border-border hover:border-primary/50 transition-all duration-300 ${
+              className={`relative bg-card border-border hover:border-primary/50 transition-all duration-300 hover:scale-105 flex flex-col ${
                 plan.popular ? 'border-primary scale-105' : ''
               }`}
             >
@@ -89,8 +89,8 @@ const Pricing = () => {
                 <p className="text-muted-foreground">{plan.description}</p>
               </CardHeader>
               
-              <CardContent>
-                <ul className="space-y-3 mb-8">
+              <CardContent className="flex-1 flex flex-col">
+                <ul className="space-y-3 mb-8 flex-1">
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center">
                       <Check className="w-5 h-5 text-primary mr-3 flex-shrink-0" />
@@ -100,7 +100,7 @@ const Pricing = () => {
                 </ul>
                 
                 <Button 
-                  className={`w-full ${
+                  className={`w-full mt-auto ${
                     plan.popular 
                       ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
                       : 'bg-secondary text-secondary-foreground hover:bg-secondary/90'
