@@ -35,7 +35,7 @@ const Hero = () => {
               Join Kickstarter
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button size="lg" variant="outline" className="group">
+            <Button size="lg" variant="outline" className="group hover:bg-primary hover:text-primary-foreground">
               <Play className="mr-2 w-4 h-4" />
               Watch Demo
             </Button>

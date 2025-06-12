@@ -50,9 +50,9 @@ const Features = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <Card key={index} className="bg-card border-border hover:border-primary/50 transition-all duration-300 group">
+            <Card key={index} className="bg-card border-border hover:border-primary/50 transition-all duration-300 group hover:scale-105">
               <CardHeader>
-                <div className="mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="mb-4 transition-transform duration-300">
                   {feature.icon}
                 </div>
                 <CardTitle className="text-xl">{feature.title}</CardTitle>
