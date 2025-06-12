@@ -71,7 +71,7 @@ const Pricing = () => {
             <Card 
               key={index} 
               className={`relative bg-card border-border hover:border-primary/50 transition-all duration-300 hover:scale-105 flex flex-col ${
-                plan.popular ? 'border-primary scale-105' : ''
+                plan.popular ? 'border-primary' : ''
               }`}
             >
               {plan.popular && (
