@@ -8,16 +8,13 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
 
-  const handleScrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      setIsMenuOpen(false);
-    }
-  };
-
   const handleGetNotified = () => {
     navigate('/newsletter');
+    setIsMenuOpen(false);
+  };
+
+  const handleHome = () => {
+    navigate('/');
     setIsMenuOpen(false);
   };
 
@@ -38,8 +35,8 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <button 
-              onClick={() => navigate('/')} 
+            <button
+              onClick={handleHome}
               className="text-muted-foreground hover:text-foreground transition-colors font-medium"
             >
               Home
@@ -80,17 +77,16 @@ const Header = () => {
                 Home
               </button>
               <Button 
-                onClick={handleJoinKickstarter}
-                className="bg-primary text-primary-foreground hover:bg-primary/90 w-full shadow-lg font-semibold"
-              >
-                Join Kickstarter
-              </Button>
-              <Button 
-                onClick={handleGetNotified}
                 variant="outline"
                 className="w-full border-primary/20 hover:bg-primary/10 font-semibold"
               >
                 Get Notified
+              </Button>
+              <Button 
+                onClick={handleJoinKickstarter}
+                className="bg-primary text-primary-foreground hover:bg-primary/90 w-full shadow-lg font-semibold"
+              >
+                Join Kickstarter
               </Button>
             </div>
           </nav>
