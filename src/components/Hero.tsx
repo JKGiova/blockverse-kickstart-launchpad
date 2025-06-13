@@ -1,9 +1,16 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Bell, Zap } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
-  return (
+  const navigate = useNavigate();
+  
+  const handleGetNotified = () => {
+    navigate('/newsletter');
+  };
+
+    return (
     <section className="pt-32 pb-20 px-4 relative overflow-hidden">
       <div className="absolute inset-0 grid-pattern opacity-30"></div>
       
@@ -35,9 +42,9 @@ const Hero = () => {
               Join Kickstarter
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button size="lg" variant="outline" className="border-primary/20 text-foreground hover:bg-primary/10 hover:border-primary/40 shadow-sm hover:shadow-md transition-all duration-200">
+            <Button onClick={handleGetNotified} size="lg" variant="outline" className="border-primary/20 text-foreground hover:bg-primary/10 hover:border-primary/40 shadow-sm hover:shadow-md transition-all duration-200">
             <Bell className="mr-2 w-4 h-4" />
-              Get Notified
+            Get Notified
             </Button>
           </div>
 
