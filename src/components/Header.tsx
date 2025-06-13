@@ -21,6 +21,11 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
+  const handleJoinKickstarter = () => {
+    window.open('https://www.kickstarter.com', '_blank');
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className="fixed top-0 w-full bg-background/80 backdrop-blur-md border-b border-border z-50">
       <div className="container mx-auto px-4 py-4">
@@ -46,8 +51,14 @@ const Header = () => {
               Pricing
             </button>
             <Button 
+              onClick={handleJoinKickstarter}
+              className="bg-primary text-primary-foreground hover:bg-primary/90 mr-2"
+            >
+              Join Kickstarter
+            </Button>
+            <Button 
               onClick={handleGetNotified}
-              className="bg-primary text-primary-foreground hover:bg-primary/90"
+              variant="outline"
             >
               Get Notified
             </Button>
@@ -79,8 +90,15 @@ const Header = () => {
                 Pricing
               </button>
               <Button 
-                onClick={handleGetNotified}
+                onClick={handleJoinKickstarter}
                 className="bg-primary text-primary-foreground hover:bg-primary/90 w-full"
+              >
+                Join Kickstarter
+              </Button>
+              <Button 
+                onClick={handleGetNotified}
+                variant="outline"
+                className="w-full"
               >
                 Get Notified
               </Button>

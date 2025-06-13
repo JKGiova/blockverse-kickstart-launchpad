@@ -1,8 +1,15 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Bell } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const CallToAction = () => {
+  const navigate = useNavigate();
+
+  const handleGetNotified = () => {
+    navigate('/newsletter');
+  };
+
   return (
     <section className="py-20 px-4 relative overflow-hidden">
       <div className="absolute inset-0 hero-gradient opacity-10"></div>
@@ -23,7 +30,7 @@ const CallToAction = () => {
             <Button 
               size="lg" 
               className="bg-primary text-primary-foreground hover:bg-primary/90 group"
-              onClick={() => window.open('https://www.kickstarter.com', '_blank')}
+              onClick={handleGetNotified}
             >
               <Bell className="mr-2 w-5 h-5" />
               Get Notified on Launch
