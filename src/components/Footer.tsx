@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <span className="text-xl font-bold">
-                Ghast<span className="hero-gradient bg-clip-text text-transparent">Hosting</span>
+                GHAST<span className="nether-gradient bg-clip-text text-transparent">HOSTING</span>
               </span>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-            © 2024 GhastHosting. All rights reserved. Minecraft is a trademark of Mojang Studios.
+            © 2024 GHASTHOSTING. All rights reserved. Minecraft is a trademark of Mojang Studios.
           </p>
           
           <div className="flex space-x-4">

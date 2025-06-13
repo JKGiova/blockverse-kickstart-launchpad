@@ -27,7 +27,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <button onClick={() => navigate('/')} className="text-xl font-bold hover:opacity-80 transition-opacity">
-              Ghast<span className="hero-gradient bg-clip-text text-transparent">Hosting</span>
+              GHAST<span className="nether-gradient bg-clip-text text-transparent">HOSTING</span>
             </button>
           </div>
 
