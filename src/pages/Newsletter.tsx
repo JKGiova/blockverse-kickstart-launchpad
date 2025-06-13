@@ -3,13 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Mail, Bell, Check } from "lucide-react";
-import Header from "@/components/Header";
+import NewsletterHeader from "@/components/NewsletterHeader";
 import Footer from "@/components/Footer";
 
 const Newsletter = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Header />
+      <NewsletterHeader />
       
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 relative overflow-hidden">
