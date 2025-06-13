@@ -61,6 +61,9 @@ const Pricing = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Simple, <span className="text-primary">Transparent</span> Pricing
           </h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Early bird pricing for Kickstarter backers. Get lifetime discounts!
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
