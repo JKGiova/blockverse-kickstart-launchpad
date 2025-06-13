@@ -61,9 +61,6 @@ const Pricing = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Simple, <span className="text-primary">Transparent</span> Pricing
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Early bird pricing for Kickstarter backers. Get lifetime discounts!
-          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -109,13 +106,6 @@ const Pricing = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <p className="text-muted-foreground mb-4">🎯 Early Bird Special: 50% off for the first 100 backers!</p>
-          <Button variant="outline" size="lg">
-            View All Features Comparison
-          </Button>
         </div>
       </div>
     </section>
