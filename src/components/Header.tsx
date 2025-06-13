@@ -39,12 +39,6 @@ const Header = () => {
             >
               Pricing
             </button>
-            <button 
-              onClick={() => handleScrollToSection('about')} 
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              About
-            </button>
             <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
               Get Notified
             </Button>
@@ -74,12 +68,6 @@ const Header = () => {
                 className="text-muted-foreground hover:text-foreground transition-colors text-left"
               >
                 Pricing
-              </button>
-              <button 
-                onClick={() => handleScrollToSection('about')} 
-                className="text-muted-foreground hover:text-foreground transition-colors text-left"
-              >
-                About
               </button>
               <Button className="bg-primary text-primary-foreground hover:bg-primary/90 w-full">
                 Get Notified

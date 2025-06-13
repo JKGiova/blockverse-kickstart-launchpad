@@ -1,31 +1,19 @@
 
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Github, Twitter, Youtube, Mail, Ghost } from "lucide-react";
+import { Github, Twitter, Youtube, Ghost } from "lucide-react";
 
 const Footer = () => {
   return (
     <footer className="bg-muted/50 py-16 px-4">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
-          <div className="col-span-1 md:col-span-2">
+          <div className="col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center">
                 <Ghost className="w-5 h-5 text-primary-foreground" />
               </div>
               <span className="text-xl font-bold">GhastHosting.com</span>
-            </div>
-            
-            {/* Newsletter */}
-            <div className="space-y-2">
-              <h4 className="font-semibold">Stay Updated</h4>
-              <div className="flex space-x-2 max-w-sm">
-                <Input placeholder="Enter your email" className="bg-background" />
-                <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
-                  <Mail className="w-4 h-4" />
-                </Button>
-              </div>
             </div>
           </div>
 
@@ -35,9 +23,6 @@ const Footer = () => {
             <ul className="space-y-2 text-muted-foreground">
               <li><a href="#features" className="hover:text-foreground transition-colors">Features</a></li>
               <li><a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a></li>
-              <li><a href="#about" className="hover:text-foreground transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Support</a></li>
             </ul>
           </div>
 
