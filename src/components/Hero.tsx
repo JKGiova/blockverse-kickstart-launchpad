@@ -1,5 +1,6 @@
+
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Play, Zap } from "lucide-react";
+import { ArrowRight, Bell, Zap } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -34,9 +35,9 @@ const Hero = () => {
               Join Kickstarter
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button size="lg" variant="outline" className="border-primary/20 text-foreground hover:bg-primary/10 hover:border-primary/40 shadow-sm hover:shadow-md transition-all duration-200 font-semibold">
-            <Play className="mr-2 w-4 h-4" />
-              Watch Demo
+            <Button size="lg" variant="outline" className="border-primary/20 text-foreground hover:bg-primary/10 hover:border-primary/40 shadow-sm hover:shadow-md transition-all duration-200">
+            <Bell className="mr-2 w-4 h-4" />
+              Get Notified
             </Button>
           </div>
 
