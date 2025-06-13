@@ -7,7 +7,7 @@ const CallToAction = () => {
   const navigate = useNavigate();
 
   const handleGetNotified = () => {
-    navigate('/newsletter');
+    navigate('/newsletter', { preventScrollReset: false });
   };
 
   return (
