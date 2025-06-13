@@ -50,7 +50,7 @@ const Header = () => {
             >
               Pricing
             </button>
-            <Button 
+            <Button
               onClick={handleGetNotified}
               variant="outline"
               className="border-primary/20 text-foreground hover:bg-primary/10 hover:border-primary/40 shadow-sm hover:shadow-md transition-all duration-200 font-semibold"
@@ -92,17 +92,17 @@ const Header = () => {
                 Pricing
               </button>
               <Button 
-                onClick={handleJoinKickstarter}
-                className="bg-primary text-primary-foreground hover:bg-primary/90 w-full shadow-lg font-semibold"
-              >
-                Join Kickstarter
-              </Button>
-              <Button 
                 onClick={handleGetNotified}
                 variant="outline"
                 className="w-full border-primary/20 hover:bg-primary/10 font-semibold"
               >
-                Get Notified
+              Get Notified
+              </Button>
+              <Button 
+                onClick={handleJoinKickstarter}
+                className="bg-primary text-primary-foreground hover:bg-primary/90 w-full shadow-lg font-semibold"
+              >
+                Join Kickstarter
               </Button>
             </div>
           </nav>
